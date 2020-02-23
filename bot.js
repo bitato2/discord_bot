@@ -12,6 +12,6 @@ client.on('ready', () => {6
   });
   const interval = setInterval(function() {
     client.channels.get("675075175619756083").send("!d bump");
-  }, 60000);
+  }, 3621399);
 });
 client.login(process.env.BOT_TOKEN);
