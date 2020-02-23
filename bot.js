@@ -14,4 +14,4 @@ client.on('ready', () => {6
     client.channels.get("675075175619756083").send("!d bump");
   }, 60000);
 });
-client.login(proccess.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
